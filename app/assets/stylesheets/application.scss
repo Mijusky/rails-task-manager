@@ -1,0 +1,43 @@
+@import "bootstrap/scss/bootstrap";
+
+a:hover {
+    color: blue;
+    border-color: #e9ecef;
+}
+
+a {
+  text-decoration: none;
+  color: #377BB5;
+}
+
+.edit {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li{
+  list-style: none;
+  border-bottom: 1px;
+}
+
+.fa-edit {
+  color: #de80ca;
+}
+
+.fa-dog {
+  color: #de80ca;
+}
+
+.fa-undo-alt {
+  color: #de80ca;
+}
+
+body {
+  margin: 28px;
+}
+
+.form-group {
+  margin-top: 17px;
+  display: inline-grid;
+}
+
